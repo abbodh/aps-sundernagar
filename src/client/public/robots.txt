@@ -1,0 +1,24 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow all bots to crawl the public website
+User-agent: *
+Allow: /
+
+# Prevent indexing of common non-SEO paths
+Disallow: /admin
+Disallow: /api
+Disallow: /private
+Disallow: /*.json$
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Crawl-delay to respect server resources
+Crawl-delay: 1
+
+# Request rate limit for aggressive crawlers
+User-agent: AhrefsBot
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap reference
+Sitemap: https://adarshpublicschool.com/sitemap.xml
+

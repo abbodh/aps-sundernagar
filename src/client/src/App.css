@@ -1,0 +1,379 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.app-shell {
+  width: 100%;
+  padding: 0.8rem 1.4rem;
+  background: linear-gradient(90deg, #1f8bdc, #2c65b2);
+  color: white;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.navBar {
+  margin: 0;
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.logo {
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffd90e;
+  color: #1f4e79;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.brand-text {
+  color: #ffffff;
+}
+
+.navBar {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.navLeft,
+.navRight {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navLeft a,
+.navRight a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 0.72rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.navLeft a:hover,
+.navRight a:hover {
+  opacity: 0.86;
+  transform: translateY(-1px);
+}
+
+.btn-signup {
+  background-color: #ffd90e;
+  color: #1f4e79;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 0.5rem 0.9rem;
+}
+
+.navLeft a:hover,
+.navRight a:hover,
+.link-btn:hover {
+  opacity: 0.85;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #1f4e79;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.95rem;
+  padding: 0;
+}
+
+.link-btn:focus {
+  outline: 2px solid #1f4e79;
+}
+
+.switch-text {
+  margin-top: 0.8rem;
+}
+
+
+main {
+  width: min(100%, 960px);
+  margin: 1.5rem auto;
+  padding: 1rem;
+}
+
+.content {
+  text-align: left;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .08);
+  padding: 1.25rem;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.carousel-image-container {
+  width: min(95%, 900px);
+  height: auto;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 5px 18px rgba(0,0,0,.2);
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 525px;
+  object-fit: cover;
+}
+
+.carousel-controls {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.carousel-btn {
+  border: none;
+  background-color: #1f4e79;
+  color: #fff;
+  padding: 0.5rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.carousel-btn:hover {
+  opacity: 0.9;
+}
+
+.slide-counter {
+  font-weight: 700;
+  color: #1f4e79;
+  min-width: 80px;
+}
+
+.cta {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #1c3f68;
+}
+
+.form-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.form-card label {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 0.56rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-card button {
+  margin-top: 1rem;
+  width: 100%;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 7px;
+  font-weight: 700;
+  background-color: #1f4e79;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  margin: 1rem 0 2rem;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.whatsapp-contact a {
+  color: #25d366;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.whatsapp-contact a:hover {
+  text-decoration: underline;
+}
+
+.home-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 6px 24px rgba(55, 96, 140, 0.16);
+  margin-bottom: 2rem;
+}
+
+.hero-left .hero-pretitle {
+  font-size: 1rem;
+  color: #ffb703;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.hero-left h1 {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  color: #10366c;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+  color: #1f527b;
+  font-weight: 600;
+}
+
+.hero-buttons {
+  margin-top: 1.4rem;
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #ffd90e;
+  color: #163861;
+}
+
+.btn-secondary {
+  background-color: #2d8fe8;
+  color: white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(20, 84, 154, 0.25);
+}
+
+.hero-right img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+  max-height: 360px;
+}
+
+.info-section {
+  background: #fffce8;
+  border-radius: 16px;
+  padding: 1.8rem;
+  box-shadow: 0 6px 18px rgba(93, 108, 157, 0.1);
+}
+
+.map-wrapper {
+  margin-top: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.14);
+}
+
+.info-section h2 {
+  margin-top: 0;
+  color: #214f87;
+  font-size: 1.9rem;
+}
+
+.info-section p {
+  color: #324e71;
+  line-height: 1.6;
+}
+
+.feature-grid {
+  margin-top: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.feature-item {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  border: 1px solid #e5e8f0;
+}
+
+.feature-item h3 {
+  margin-top: 0;
+  color: #1a496c;
+}
+
+.feature-item p {
+  margin: 0.35rem 0 0;
+  color: #4d6986;
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+  .hero-right img {
+    max-height: 300px;
+  }
+}
+
