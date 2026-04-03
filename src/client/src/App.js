@@ -38,6 +38,15 @@ function App() {
           </Routes>
         </main>
 
+        <footer className="footer">
+          <div className="copyright-notice">
+            <p>© 2026 Adarsh Public School. All rights reserved.</p>
+            <p><small>This website contains copyrighted material and images used with permission. 
+            Unauthorized reproduction or distribution is strictly prohibited. 
+            All photos are used with proper permissions from respective owners.</small></p>
+          </div>
+        </footer>
+
         <a
           href="https://wa.me/917879755661"
           target="_blank"
