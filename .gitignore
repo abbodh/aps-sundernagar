@@ -1,0 +1,47 @@
+﻿# Visual Studio (from template)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.ide
+*.vbproj.user
+*.csproj.user
+*.dbmdl
+*.suo
+# IIS Express
+/.vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# React build
+build/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# .NET user-specific files
+*.userprefs
+
+# SQLite / local db
+/.vs/slnx.sqlite
