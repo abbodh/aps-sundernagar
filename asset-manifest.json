@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/aps-sundernagar/static/css/main.a00bf9fe.css",
-    "main.js": "/aps-sundernagar/static/js/main.0b4954d9.js",
+    "main.js": "/aps-sundernagar/static/js/main.cb3ca3b2.js",
     "static/js/453.af205ec6.chunk.js": "/aps-sundernagar/static/js/453.af205ec6.chunk.js",
     "static/media/background.png": "/aps-sundernagar/static/media/background.1da857e5601fbc46ec09.png",
     "static/media/3d-whatsapp-logo-icon-green-color-free.png": "/aps-sundernagar/static/media/3d-whatsapp-logo-icon-green-color-free.8c78f448dd1d38345184.png",
     "index.html": "/aps-sundernagar/index.html",
     "main.a00bf9fe.css.map": "/aps-sundernagar/static/css/main.a00bf9fe.css.map",
-    "main.0b4954d9.js.map": "/aps-sundernagar/static/js/main.0b4954d9.js.map",
+    "main.cb3ca3b2.js.map": "/aps-sundernagar/static/js/main.cb3ca3b2.js.map",
     "453.af205ec6.chunk.js.map": "/aps-sundernagar/static/js/453.af205ec6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a00bf9fe.css",
-    "static/js/main.0b4954d9.js"
+    "static/js/main.cb3ca3b2.js"
   ]
 }
