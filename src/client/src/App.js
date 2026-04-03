@@ -39,7 +39,7 @@ function App() {
         </main>
 
         <a
-          href="https://wa.me/917879155661"
+          href="https://wa.me/917879755661"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-floating-btn"
