@@ -52,7 +52,11 @@ try {
   // Add and commit changes
   console.log('Committing changes...');
   execSync('git add .');
-  execSync('git commit -m "Deploy to GitHub Pages"');
+  try {
+    execSync('git commit -m "Deploy to GitHub Pages"');
+  } catch (error) {
+    console.log('No changes to commit, continuing...');
+  }
 
   // Push to remote
   console.log('Pushing to remote...');
