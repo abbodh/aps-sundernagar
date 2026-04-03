@@ -8,7 +8,7 @@ function Contact() {
     <div className="content">
       <h2>Contact Us</h2>
       <p>Email: help@schoolmanagement.example</p>
-      <p>Phone: +1 555 123 4567</p>
+      <p>Phone: +917879155661</p>
       <p>
         Address: 6JJ7+639, Unnamed Road, Patel Para, Raipur, Chhattisgarh 492001{' '}
         <a href={mapDirectUrl} target="_blank" rel="noopener noreferrer" style={{ color: '#2d8fe8', fontWeight: 600 }}>

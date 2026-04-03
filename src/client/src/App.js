@@ -37,15 +37,8 @@ function App() {
           </Routes>
         </main>
 
-        <footer className="footer">
-          <div>© 2026 Adarsh Public School.</div>
-          <div className="whatsapp-contact">
-            📱 WhatsApp: <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer">123456789</a>
-          </div>
-        </footer>
-
         <a
-          href="https://wa.me/123456789"
+          href="https://wa.me/917879155661"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-floating-btn"
