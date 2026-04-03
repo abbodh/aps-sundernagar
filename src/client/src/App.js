@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/aps-sundernagar">
       <div className="App">
         <header className="App-header app-shell">
           <div className="brand">
@@ -34,6 +34,7 @@ function App() {
             <Route path="/programs" element={<Programs />} />
             <Route path="/parents" element={<Parents />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Home />} />
           </Routes>
         </main>
 
