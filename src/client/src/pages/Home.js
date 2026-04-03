@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -9,20 +10,24 @@ function HomePage() {
           <h1>Adarsh Public School</h1>
           <p className="hero-subtitle">Discover, Learn & Grow Together!</p>
           <div className="hero-buttons">
-            <button className="btn btn-primary">Enroll Now</button>
-            <button className="btn btn-secondary">Learn More</button>
+            <Link to="/contact">
+              <button className="btn btn-primary">Enroll Now</button>
+            </Link>
+            <Link to="/about">
+              <button className="btn btn-secondary">Learn More</button>
+            </Link>
           </div>
         </div>
         <div className="hero-right">
           <img
-            src="https://images.unsplash.com/photo-1597600214959-69a9831571ab?auto=format&fit=crop&w=900&q=80"
-            alt="Children playing outdoors"
+            src={require('../images/background.png')}
+            alt="Adarsh Public School"
           />
         </div>
       </section>
 
       <section className="info-section">
-        <h2>Welcome to Little Ex, Learn & Kindergarten!</h2>
+        <h2>Welcome to Adarsh Public School!</h2>
         <p>
           Join us in a joyful learning adventure designed for kids to build
           confidence, creativity, and community. Our programs are crafted with

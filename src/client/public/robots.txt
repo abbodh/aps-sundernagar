@@ -20,5 +20,5 @@ User-agent: SemrushBot
 Disallow: /
 
 # Sitemap reference
-Sitemap: https://adarshpublicschool.com/sitemap.xml
+Sitemap: https://abbodh.github.io/aps-sundernagar/sitemap.xml
 

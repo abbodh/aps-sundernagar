@@ -6,7 +6,6 @@ import About from './pages/About';
 import Programs from './pages/Programs';
 import Parents from './pages/Parents';
 import Contact from './pages/Contact';
-import Login from './pages/Login';
 
 function App() {
   return (
@@ -25,9 +24,6 @@ function App() {
               <Link to="/parents">Parents</Link>
               <Link to="/contact">Contact</Link>
             </div>
-            <div className="navRight">
-              <Link className="btn-signup" to="/login">Sign Up</Link>
-            </div>
           </nav>
         </header>
 
@@ -38,7 +34,6 @@ function App() {
             <Route path="/programs" element={<Programs />} />
             <Route path="/parents" element={<Parents />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
 
@@ -48,6 +43,16 @@ function App() {
             📱 WhatsApp: <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer">123456789</a>
           </div>
         </footer>
+
+        <a
+          href="https://wa.me/123456789"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-floating-btn"
+          title="Chat with us on WhatsApp"
+        >
+          <img src={require('./images/3d-whatsapp-logo-icon-green-color-free.png')} alt="WhatsApp" />
+        </a>
       </div>
     </BrowserRouter>
   );

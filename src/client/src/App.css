@@ -57,21 +57,19 @@
 .navBar {
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.navLeft,
-.navRight {
+.navLeft {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-.navLeft a,
-.navRight a {
+.navLeft a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 0.72rem;
@@ -80,18 +78,9 @@
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.navLeft a:hover,
-.navRight a:hover {
+.navLeft a:hover {
   opacity: 0.86;
   transform: translateY(-1px);
-}
-
-.btn-signup {
-  background-color: #ffd90e;
-  color: #1f4e79;
-  font-weight: 700;
-  border-radius: 999px;
-  padding: 0.5rem 0.9rem;
 }
 
 .navLeft a:hover,
@@ -374,6 +363,44 @@ main {
   }
   .hero-right img {
     max-height: 300px;
+  }
+}
+
+.whatsapp-floating-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  z-index: 99;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-floating-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-floating-btn img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .whatsapp-floating-btn {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 50px;
+    height: 50px;
   }
 }
 
